@@ -1,1 +1,5 @@
 This is my first file to test the Github repository.
+
+Push code:
+git push -u origin main
+A popup window opens and fill the token; that is generated through remote repository.
