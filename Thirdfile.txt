@@ -1,1 +1,32 @@
 my third file
+
+// how to do git pull= git fetch+ git merge
+
+C:\Users\user\Desktop\Java_testing\Test_Repo>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\user\Desktop\Java_testing\Test_Repo>git fetch
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 706 bytes | 47.00 KiB/s, done.
+From https://github.com/Kaur1990/Test_Repo
+   fb82ea4..8490327  main       -> origin/main
+
+C:\Users\user\Desktop\Java_testing\Test_Repo>git status
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+C:\Users\user\Desktop\Java_testing\Test_Repo>git merge
+Updating fb82ea4..8490327
+Fast-forward
+ Thirdfile.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Thirdfile.txt
